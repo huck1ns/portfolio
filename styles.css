@@ -17,9 +17,10 @@ body {
     padding: 16px;
     max-width: 1000px;
     margin: auto;
+    
 }
 
-.links {
+#links {
     display: flex;
     gap: 48px
     
@@ -27,14 +28,28 @@ body {
 
 a {
     text-decoration: none;
-    color: #FFEFDE;
-    font-family: "Space Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    font-weight: 500;
     font-size: 22px;
 }
 
+.text {
+    color: #FFEFDE;
+    font-family: "Space Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#hero {
+    margin: 0;
+    padding: 0;
+    background-color: #FFEFDE;
+    width: 100%;            
+    min-height: 300px;     
+}
+
+.hero-text {
+    color: #17181a
+}
 
 .space-grotesk {
     font-family: "Space Grotesk", sans-serif;
