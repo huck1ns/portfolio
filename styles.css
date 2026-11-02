@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 16px;
-    max-width: 1000px;
+    max-width: 55%;
     margin: auto;
     
 }
@@ -24,6 +24,10 @@ body {
     display: flex;
     gap: 48px
     
+}
+
+h1, p {
+    margin: 0;
 }
 
 a {
@@ -39,16 +43,35 @@ a {
     font-style: normal;
 }
 
-#hero {
-    margin: 0;
-    padding: 0;
+.site-hero {
     background-color: #FFEFDE;
-    width: 100%;            
-    min-height: 300px;     
+    width: 100%; 
+    min-height: 400px;   
 }
 
-.hero-text {
-    color: #17181a
+#hero {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    padding: 0;    
+    max-width: 80%;
+    margin: auto;
+}
+
+#hero .text {
+    display: flex;
+    color: #17181a;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    
+}
+
+#placeholder {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    margin-top: 100px;
 }
 
 .space-grotesk {
