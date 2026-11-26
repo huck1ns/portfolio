@@ -73,7 +73,7 @@ a {
 #headshot {
     max-width: 30%;
     border-radius: 50%;
-    border: clamp(1px, 0.5vw, 8px) solid #590909;
+    border: clamp(2px, 0.5vw, 8px) solid #590909;
     flex: 0 0 100px;
     aspect-ratio: 1;
 }
