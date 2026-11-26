@@ -3,7 +3,7 @@
     "title": "BlueBike Data Analysis",
     "description": "",
     "icon": "./resources/bike.png",
-    "tags": [],
+    "type": "Coursework",
     "repo": "https://github.com/huck1ns/BlueBike_DS_Project",
     "featured": false,
     "date": "2026-09-15"
@@ -12,7 +12,7 @@
     "title": "Planthing - Arduino Powered Plant Monitor",
     "description": "Arduino powered plant monitoring program. Integrated with the Perenual API to pull preferred moisture and light levels for over 3000 plants, the program compares plant conditions to the ideals.",
     "icon": "./resources/planthing-logo.svg",
-    "tags": [],
+    "type": "Indepedent",
     "repo": "https://github.com/huck1ns/planthing",
     "featured": false,
     "date": "2026-09-15"
@@ -21,7 +21,7 @@
     "title": "Texas Hold'em JavaFX",
     "description": "Texas Hold'em game played against 1-8 computer players. GUI written with JavaFX.",
     "icon": "./resources/poker-logo.png",
-    "tags": [],
+    "type": "Coursework",
     "repo": "https://github.com/huck1ns/texasholdem",
     "featured": false,
     "date": "2025-04-15"
@@ -30,7 +30,7 @@
     "title": "Placeholder",
     "description": "",
     "icon": "",
-    "tags": [],
+    "type": "",
     "repo": "",
     "featured": false,
     "date": "2026-09-15"
@@ -39,7 +39,7 @@
     "title": "Placeholder",
     "description": "",
     "icon": "",
-    "tags": [],
+    "type": "",
     "repo": "",
     "featured": false,
     "date": "2026-09-15"

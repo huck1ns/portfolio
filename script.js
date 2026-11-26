@@ -13,9 +13,9 @@ async function loadProjects() {
                         <h3>${project.title}</h3>
                         <p>${project.description}</p>
                     </div>
-                    <div class="link-and-year">
+                    <div class="link-year-tag">
                         <a href="${project.repo}" target="_blank" rel="noopener">Source Code</a>
-                        <p id="year">${project.date.slice(0,4)}</p>
+                        <p id="year">${project.date.slice(0,4)+" • "+project.type}</p>
                     </div>
                 </div>
             </article>
