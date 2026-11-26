@@ -154,5 +154,11 @@ h2 {
         font-size: clamp(2rem, 8vw, 2.5rem);
     }
 
+    .project-card {
+        width: 300px;
+        min-width: 300px;
+        max-width: 300px;;
+    }
+
 }
 
