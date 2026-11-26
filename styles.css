@@ -84,6 +84,7 @@ a {
     gap: 1.5rem;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
     padding-bottom: 1rem;
 }
 
@@ -108,7 +109,7 @@ a {
     width: 400px;
     min-width: 400px;
     max-width: 400px;;
-    flex: 0 0 400px;
+    flex: 0 0 min(400px, 85%);
     scroll-snap-align: start;
 }
 
@@ -122,6 +123,7 @@ a {
 .card-content {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     gap: 0.5rem;
 }
 
