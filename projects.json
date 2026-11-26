@@ -1,5 +1,14 @@
 [
     {
+    "title": "This Site!",
+    "description": "",
+    "icon": "./resources/bike.png",
+    "type": "Coursework",
+    "repo": "https://github.com/huck1ns/BlueBike_DS_Project",
+    "featured": false,
+    "date": "2026-09-15"
+    },
+    {
     "title": "BlueBike Data Analysis",
     "description": "",
     "icon": "./resources/bike.png",
@@ -10,7 +19,7 @@
     },
     {
     "title": "Planthing - Arduino Powered Plant Monitor",
-    "description": "Arduino powered plant monitoring program. Integrated with the Perenual API to pull preferred moisture and light levels for over 3000 plants, the program compares plant conditions to the ideals.",
+    "description": "Arduino powered plant monitoring program. Sensors compare real-time conditions to ideals.",
     "icon": "./resources/planthing-logo.svg",
     "type": "Indepedent",
     "repo": "https://github.com/huck1ns/planthing",

@@ -29,7 +29,7 @@ header {
     padding: 1rem;
 }
 
-#links {
+.links {
     display: flex;
     gap: clamp(1rem, 4vw, 3rem);
 }
@@ -112,7 +112,7 @@ a {
     min-width: 400px;
     max-width: 400px;;
     flex: 0 0 min(400px, 85%);
-    scroll-snap-align: start;
+    position: relative;
 }
 
 .project-card img {
@@ -132,6 +132,25 @@ a {
 .card-content #year {
     font-weight: 800;
 }
+
+#more {
+    display: flex;
+    align-items: center;
+}
+
+#see-more {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #17181a;
+}
+
+
+#see-more::after {
+    content: "";
+    position: absolute;
+    inset: 0; 
+}
+
 
 .card-content .title-and-text {
     display: flex;
@@ -160,7 +179,7 @@ h2 {
         padding-block: 2rem;
     }
 
-    #placeholder {
+    #headshot {
         flex-basis: auto;
         width: min(100%, 12.5rem);
     }
