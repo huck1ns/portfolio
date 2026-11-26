@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: #17181a;
+    background-color: #201414;
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -79,10 +79,14 @@ a {
 
 #projects-list {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    display: flex;
+    flex-wrap: nowrap;
     gap: 1.5rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 1rem;
 }
+
 
 #projects-section {
     width: 100%;
@@ -92,7 +96,8 @@ a {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    
+    width: 100%;
+    margin-top: .75rem;
 }
 
 .project-card {
@@ -100,6 +105,11 @@ a {
     padding: 2rem;
     display: flex;
     gap: 1.5rem;
+    width: 400px;
+    min-width: 400px;
+    max-width: 400px;;
+    flex: 0 0 400px;
+    scroll-snap-align: start;
 }
 
 .project-card img {
@@ -117,6 +127,10 @@ a {
 
 .card-content #year {
     font-weight: 800;
+}
+
+h2 {
+    font-size: 24px;
 }
 
 
@@ -137,4 +151,6 @@ a {
     #hero .text h1 {
         font-size: clamp(2rem, 8vw, 2.5rem);
     }
+
 }
+

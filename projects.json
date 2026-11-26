@@ -1,7 +1,34 @@
 [
     {
+    "title": "Stroke Data Analysis and Model Training",
+    "description": "",
+    "icon": "./resources/planthing-logo.svg",
+    "tags": [],
+    "repo": "https://github.com/huck1ns/planthing",
+    "featured": false,
+    "date": "2026-09-15"
+    },
+    {
+    "title": "Stroke Data Analysis and Model Training",
+    "description": "",
+    "icon": "./resources/planthing-logo.svg",
+    "tags": [],
+    "repo": "https://github.com/huck1ns/planthing",
+    "featured": false,
+    "date": "2026-09-15"
+    },
+    {
+    "title": "BlueBike Data Analysis",
+    "description": "",
+    "icon": "./resources/planthing-logo.svg",
+    "tags": [],
+    "repo": "https://github.com/huck1ns/BlueBike_DS_Project",
+    "featured": false,
+    "date": "2026-09-15"
+    },
+    {
     "title": "Planthing - Arduino Powered Plant Monitor",
-    "description": "Planthing is an Arduino powered plant monitoring program. Integrated with the Perenual API to pull preferred moisture and light levels for over 3000 plants, the program compares plant conditions to the ideals.",
+    "description": "Arduino powered plant monitoring program. Integrated with the Perenual API to pull preferred moisture and light levels for over 3000 plants, the program compares plant conditions to the ideals.",
     "icon": "./resources/planthing-logo.svg",
     "tags": [],
     "repo": "https://github.com/huck1ns/planthing",
@@ -13,7 +40,7 @@
     "description": "One or two sentences.",
     "icon": "./resources/poker-logo.png",
     "tags": [],
-    "repo": "https://github.com/huck1ns/planthing",
+    "repo": "https://github.com/huck1ns/texasholdem",
     "featured": false,
     "date": "2025-04-15"
     }
