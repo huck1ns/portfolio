@@ -9,10 +9,14 @@ async function loadProjects() {
             <article class = "project-card">
                 <img src="${project.icon}" loading = "lazy">
                 <div class="card-content">
-                    <h3>${project.title}</h3>
-                    <p>${project.description}</p>
-                    <a href="${project.repo}" target="_blank" rel="noopener">Source Code</a>
-                    <p id="year">${project.date.slice(0,4)}</p>
+                    <div class="title-and-text">
+                        <h3>${project.title}</h3>
+                        <p>${project.description}</p>
+                    </div>
+                    <div class="link-and-year">
+                        <a href="${project.repo}" target="_blank" rel="noopener">Source Code</a>
+                        <p id="year">${project.date.slice(0,4)}</p>
+                    </div>
                 </div>
             </article>
         `).join('');

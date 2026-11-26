@@ -1,26 +1,8 @@
 [
     {
-    "title": "Stroke Data Analysis and Model Training",
-    "description": "",
-    "icon": "./resources/planthing-logo.svg",
-    "tags": [],
-    "repo": "https://github.com/huck1ns/planthing",
-    "featured": false,
-    "date": "2026-09-15"
-    },
-    {
-    "title": "Stroke Data Analysis and Model Training",
-    "description": "",
-    "icon": "./resources/planthing-logo.svg",
-    "tags": [],
-    "repo": "https://github.com/huck1ns/planthing",
-    "featured": false,
-    "date": "2026-09-15"
-    },
-    {
     "title": "BlueBike Data Analysis",
     "description": "",
-    "icon": "./resources/planthing-logo.svg",
+    "icon": "./resources/bike.png",
     "tags": [],
     "repo": "https://github.com/huck1ns/BlueBike_DS_Project",
     "featured": false,
@@ -37,11 +19,29 @@
     },
     {
     "title": "Texas Hold'em JavaFX",
-    "description": "One or two sentences.",
+    "description": "Texas Hold'em game played against 1-8 computer players. GUI written with JavaFX.",
     "icon": "./resources/poker-logo.png",
     "tags": [],
     "repo": "https://github.com/huck1ns/texasholdem",
     "featured": false,
     "date": "2025-04-15"
+    },
+    {
+    "title": "Placeholder",
+    "description": "",
+    "icon": "",
+    "tags": [],
+    "repo": "",
+    "featured": false,
+    "date": "2026-09-15"
+    },
+    {
+    "title": "Placeholder",
+    "description": "",
+    "icon": "",
+    "tags": [],
+    "repo": "",
+    "featured": false,
+    "date": "2026-09-15"
     }
 ]
