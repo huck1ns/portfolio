@@ -1,0 +1,22 @@
+[
+    {
+    "title": "Planthing - Arduino Powered Plant Monitor",
+    "description": "Planthing is an Arduino powered plant monitoring program. Integrated with the Perenual API to pull preferred moisture and light levels for over 3000 plants, the program compares your plant's conditions to the ideals. Within the application you can search the database of plants and easily update the ideal conditions.",
+    "icon": "./resources/plant3.svg",
+    "tags": ["Python", "Flask"],
+    "link": "https://...",
+    "repo": "https://github.com/huck1ns/planthing",
+    "featured": false,
+    "date": "2026-09-15"
+    },
+    {
+    "title": "Planthing - Arduino Powered Plant Monitor",
+    "description": "One or two sentences.",
+    "icon": "./resources/scriptmonocream.svg",
+    "tags": ["Python", "Flask"],
+    "link": "https://...",
+    "repo": "https://github.com/huck1ns/planthing",
+    "featured": false,
+    "date": "2026-09-15"
+    }
+]
