@@ -1,7 +1,7 @@
 [
     {
     "title": "This Site!",
-    "description": "Written with HTML, CSS, and JavaScript. Built on GitHub Pages.",
+    "description": "Written with HTML, CSS, and JavaScript. Built and deployed with GitHub Pages.",
     "icon": "./resources/website.svg",
     "type": "Indepedent",
     "repo": "https://github.com/huck1ns/portfolio",
