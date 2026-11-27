@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: #201414;
+    background-color: #370505;
     font-family: "Space Grotesk", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -46,11 +46,11 @@ a {
 }
 
 .text {
-    color: #FFEFDE;
+    color: #fffdfa;
 }
 
 #hero-section {
-    background-color: #FFEFDE;
+    background-color: #fffdfa;
     width: 100%;
 }
 
@@ -65,6 +65,10 @@ a {
     flex-direction: column;
     justify-content: center;
     gap: 8px;
+}
+
+#hero .text p {
+    font-size: 18px;
 }
 
 #hero .text h1 {
@@ -100,6 +104,7 @@ a {
 #projects {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 1.5rem;
     width: 100%;
     margin-top: .75rem;
@@ -107,7 +112,7 @@ a {
 }
 
 .project-card {
-    background-color: #FFEFDE;
+    background-color: #fffdfa;
     padding: 2rem;
     display: flex;
     gap: 1.5rem;
@@ -169,11 +174,13 @@ a {
 
 
 h2 {
+    width: 100%;
+    text-align: center;
     font-size: 2rem;
 }
 
 footer .section {
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -183,6 +190,8 @@ footer {
 
 footer .links {
     flex-direction: column;
+    background-color:#370505;
+    padding:1rem 3rem;
     gap: 1rem;
 }
 
