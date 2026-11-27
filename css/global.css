@@ -46,11 +46,11 @@ a {
 }
 
 .text {
-    color: #fffdfa;
+    color: #FFEFDE;
 }
 
 #hero-section {
-    background-color: #fffdfa;
+    background-color: #FFEFDE;
     width: 100%;
 }
 
@@ -99,6 +99,7 @@ a {
 
 #projects-section {
     width: 100%;
+    min-height: 30vh;
 }
 
 #projects {
@@ -112,7 +113,7 @@ a {
 }
 
 .project-card {
-    background-color: #fffdfa;
+    background-color: #FFEFDE;
     padding: 2rem;
     display: flex;
     gap: 1.5rem;

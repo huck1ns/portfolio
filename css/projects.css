@@ -1,5 +1,6 @@
 #projects {
     width: min(100% - 2rem, 70rem);
+    min-height: 70vh;
 }
 
 #projects-grid {
@@ -11,8 +12,6 @@
 }
 
 .project-card {
-    min-height: 250px;
-    max-height: 300px;
     width: 100%;
     min-width: 0;
     max-width: none;
