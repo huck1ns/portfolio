@@ -87,7 +87,7 @@ a {
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    scrollbar-color: #590909 transparent; /* thumb color | transparent track */
+    scrollbar-color: #590909 transparent;
     padding-bottom: 1rem;
 }
 
