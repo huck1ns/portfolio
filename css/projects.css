@@ -1,0 +1,20 @@
+#projects {
+    width: min(100% - 2rem, 70rem);
+}
+
+#projects-grid {
+    width: 100%;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+}
+
+.project-card {
+    min-height: 250px;
+    max-height: 300px;
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+}
+
+
