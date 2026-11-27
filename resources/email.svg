@@ -1,0 +1,9 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg xmlns="http://www.w3.org/2000/svg" class="icon" style="vertical-align: middle; fill: currentcolor; overflow: hidden; width: 200px; height: 200px; color: rgb(0, 0, 0);" version="1.1" viewBox="0 0 1024 1024" width="200px" height="200px" fill="#000000">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier">
+<path d="M896 170.688c23.552 0 42.688 19.072 42.688 42.624v597.376a42.688 42.688 0 0 1-42.688 42.624H128a42.688 42.688 0 0 1-42.688-42.624V213.312c0-23.552 19.136-42.624 42.688-42.624h768z m-42.688 185.216L546.88 528c-22.592 10.304-47.36 10.304-69.76 0L170.624 355.84V768h682.688V355.84z m0-99.904H170.688v2.24L512 448.896l341.312-190.72V256z" fill="#ffffff"/>
+</g>
+</svg>
