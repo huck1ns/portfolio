@@ -6,24 +6,14 @@
     <title>Jack Huckins | Development and Design</title>
     <link rel="stylesheet" href="./css/global.css">
     <link rel="icon" type="image/svg+xml" href="./resources/scriptmonocream.svg">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <script src="./js/components.js" defer></script>
 </head>
 <body>
     <main>
-        <header>
-            <div class="section" id = "header">
-                <a href = "https://jackhuckins.com">
-                    <img src = "./resources/scriptmonocream.svg" class="logo" width="64" height="64">
-                </a>
-                <div class="links">
-                    <a class="text" href="./projects/">Projects</a>
-                    <a class="text" href="">Contact</a>
-                </div>
-            </div>
-        </header>
+        <site-header></site-header>
         <section id = "hero-section">
             <div class = "section" id = "hero">
                 <img id = "headshot" src = "./resources/headshot.jpeg"> 
@@ -41,26 +31,7 @@
                 </div>
             </div>
         </section>
-        <footer>
-            <div class = "section">
-                <ul class = "links">
-                    <a class = "text" href = "https://github.com/huck1ns">
-                        <img src="./resources/github.svg" width= "20px">
-                        <span>GitHub</span>
-                    </a>
-                    <a class = "text" href = "https://linkedin.com/in/jackhuckins005">
-                        <img src="./resources/linkedin.svg" width= "20px">
-                        <span>LinkedIn</span>
-                    </a>
-                    <a class = "text" href = "mailto:jackdhuckins@gmail.com">
-                        <img src="./resources/email.svg" width= "24px">
-                        <span>Email</span>
-                    </a>
-                </ul>
-                <p class="text">&copy; 2026 Jack Huckins. All rights reserved.</p>
-                <p class="text">Last updated: {{ site.time | date: "%B %-d, %Y" }}</p>
-            </div>
-        </footer>
+        <site-footer></site-footer>
     </main>
     <script type="module" src="./js/loadPreview.js"></script>
 </body>
