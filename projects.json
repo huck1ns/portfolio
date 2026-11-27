@@ -1,25 +1,25 @@
 [
     {
     "title": "This Site!",
-    "description": "",
-    "icon": "./resources/bike.png",
+    "description": "Written with HTML, CSS, and Javascript. Built on GitHub Pages.",
+    "icon": "./resources/website.svg",
     "type": "Indepedent",
-    "repo": "https://github.com/huck1ns/BlueBike_DS_Project",
+    "repo": "https://github.com/huck1ns/portfolio",
     "featured": false,
     "date": "2026-09-15"
     },
     {
     "title": "BlueBike Data Analysis",
-    "description": "",
-    "icon": "./resources/bike.png",
+    "description": "Collaborative project studying Boston's BlueBike system. Data analysis and visualization on 2025 trip data to understand usage trends.",
+    "icon": "./resources/bike.svg",
     "type": "Coursework",
     "repo": "https://github.com/huck1ns/BlueBike_DS_Project",
     "featured": false,
     "date": "2026-09-15"
     },
     {
-    "title": "Planthing - Arduino Powered Plant Monitor",
-    "description": "Arduino powered plant monitoring program. Sensors compare real-time conditions to ideals.",
+    "title": "Planthing",
+    "description": "Arduino powered plant monitoring program. Sensors compare real-time moisture and light conditions to ideals pulled from the Perenual API.",
     "icon": "./resources/planthing-logo.svg",
     "type": "Indepedent",
     "repo": "https://github.com/huck1ns/planthing",
